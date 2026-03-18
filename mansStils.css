@@ -1,0 +1,42 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Mar 18, 2026, 2:34:13 PM
+    Author     : askibo
+*/
+body {
+    background-color: lightcyan;
+    font-family: Serif;
+}
+
+h1 {
+    color: darkturquoise;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: mediumturquoise;
+    font-size: 35px;
+    text-align: center; 
+}
+
+
+p {
+    color: darkcyan;
+    font-size: 20px
+}
+
+ul {
+    padding-left: 30px;
+}
+
+ul li {
+    color: darkcyan;
+    font-size: 15px;
+    margin-bottom: 10px;
+    line-height: 1.3;
+    font-weight: bold;
+}
