@@ -40,3 +40,14 @@ ul li {
     line-height: 1.3;
     font-weight: bold;
 }
+
+.images {
+    display: flex;
+    gap: 10px; /* atstarpe starp bildēm */
+}
+
+.images img {
+    width: 300px;
+    height: auto;
+    padding-left: 30px;
+}
