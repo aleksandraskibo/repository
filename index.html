@@ -8,14 +8,37 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <title>Datorikas portfolio</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="mansStils.css">
+        <link rel="stylesheet" href="css/mansStils.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         
     </head>
     
      
     
     <body>
-        <h1>Mans datorikas portfolio</h1>
+        
+   <div class="w3-bar nav-panel">
+
+<a href="#sakums" class="w3-bar-item w3-button">Sākums</a>
+
+<div class="w3-dropdown-hover">
+<button class="w3-button">Attēlu apstrāde ▾</button>
+
+<div class="w3-dropdown-content w3-bar-block dropdown-menu">
+<a href="#rastragrafika" class="w3-bar-item w3-button">Rastra grafika</a>
+<a href="#vektorgrafika" class="w3-bar-item w3-button">Vektorgrafika</a>
+</div>
+
+</div>
+
+<a href="#teksts" class="w3-bar-item w3-button">Tekstapstrāde</a>
+<a href="#excel" class="w3-bar-item w3-button">Izklājlapas</a>
+<a href="#video" class="w3-bar-item w3-button">Video</a>
+
+<a href="otrais.html" class="w3-bar-item w3-button">Individuālā tēma</a>
+
+</div>
+        <h1 id="sakums">Mans datorikas portfolio</h1>
         <p>Datorikas stundās mēs jau esam apguvuši vairākas tēmas:
         </p>
         <ul>
@@ -29,21 +52,18 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         </ul>
         <p class="large">Un tagad apgustam HTML.</p>
         
-       
-        <a href="forma.html">forma</a>
-        <a href="otrais.html">otrais</a>
-        <a href="dzerdaudz.html">dzerdaudz</a>
-        <a href="dzer.html">dzer</a>
+    
         
-        <h2>Tekstapstrāde</h2>
+        <h2 id="teksts">Tekstapstrāde</h2>
         <p> Programmā Ms Word mēs apguvām, kā veidot un formatēt dokumentus. Mēs arī stradājām ar teksta, paragrāfu noformēšanu, attēliem, tabulām, sarakstiem, utt.</p>
 <div class="images">
     <img src="images/wordscreenshot1.png" alt="bilde 1">
     <img src="images/wordscreenshot2.png" alt="bilde 2">
 </div>
         
-        <h2>Attēlu apstrāde</h2>
-        <h3>a. Rastra grafika - gif animācija</h3>
+        <h2 id="Attēlu apstrāde">Attēlu apstrāde</h2>
+        
+        <h3 id="rastragrafika">a. Rastra grafika - gif animācija</h3>
         <p>Viena daļa no tēmas par attēlu apstrādi bija rastra grafika. Tājā mēs apguvam rastra grafiku un tās izmantošanu, ka attēls sastāv no pikseļiem. Mēs iemācījamies kā strādāt ar attēliem programmā GIMP un apgūstām tās pamata rīkus. Beigās mēs izveidojam attēlu ar sava vārda burtiem,darbu ar fotoattēliem, un īsu GIF animāciju par savu tēmu.</p>
         <div class="images">
     <img src="images/vards.png" alt="vārds">
@@ -51,7 +71,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
     <img src="images/launatura.gif" alt="gif animācija">
     </div>
     
-      <h3>b. Vektorgrafika - logo</h3>
+      <h3 id="vektorgrafika">b. Vektorgrafika - logo</h3>
     <p>Otra daļa no attēlu apstrādes bija vektorgrafika. Šajā tēmā mēs arī apguvam kā veidot un rediģēt attēlus, bet jau ar citiem rīkiem programmā Inkscape. Mēs iemācījamies strādāt ar slāniem, mainīt objektu krāsu, kontūras biezumu, caurspīdīgumu, utt. Beigās mēs izveidojām logo savas grupas uzņēmumam.
      <div class="images">
     <img src="images/logo.png" alt="logo">
@@ -63,20 +83,30 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
     <img src="images/3D kubs.png" alt="3D kuba skaldne">
     </div>
     
-    <h2>Video</h2> 
-    Šajā tēmā mēs mācījāmies ar video apstrādes programmam, un pēc tam izveidojam savu video par mūsu 3D printēšanas projektu.
-   
+    <h2 id="video">Video</h2> 
+    <p>Šajā tēmā mēs mācījāmies ar video apstrādes programmam, un pēc tam izveidojam savu video par mūsu 3D printēšanas projektu.</p>
+    <div>
     <video width="400" controls>
-    <source src="images/videofilma.mov" type="video/quicktime">
+        <source src="images/videofilma.mov" type="video/quicktime">
+        </div>
 </video>
     
-    <h2>Izklājlapas</h2>
+    <h2 id="excel">Izklājlapas</h2>
     <p>Programmā Excel mēs apguvām funkcijas, piemēram, summēšanu, vidējās vērtības aprēķināšanu, procentu aprēķinus un citas vienkāršas matemātiskas darbības, iepazināmies ar datu kārtošanu un filtrēšanu, kas palīdz ātrāk atrast nepieciešamo informāciju, veidojām diagrammas, utt.</p>
     
     <a href="images/excelKD2026.xlsx" download>Lejupielādēt Excel failu</a>
     <div>
       <a href="images/excelKD2026.xlsx" target="_blank">Atvērt Excel failu</a>  
     </div>
+    
+    
+</div>
+
+<div>
+     <a href="forma.html">forma</a>
+     <a href="dzerdaudz.html">dzerdaudz</a>
+      <a href="dzer.html">dzer</a>
+</div>
     </body>
 </html>
 
