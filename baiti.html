@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+<form>
+<p>Aprēķināt cik daudz informācijas var lejupielādēt</p>
+
+<div>
+<input type="text" name="sek"
+
+oninput="
+biti = 25*1000000*sek.value;
+baiti = biti/8;
+
+if (vien[0].checked) {
+rez.value = baiti/1000;
+} else {
+rez.value = baiti/1024;
+}
+"
+
+onfocus="
+sek.value='';
+rez.value='';
+vien[0].checked=true;
+vien[1].checked=false;
+"
+
+> sekundēs, ja interneta ātrums ir 25 Mbps.
+</div>
+
+<br>
+
+<div>
+<input type="radio" name="vien" value="KB" checked
+onclick="
+biti = 25*1000000*sek.value;
+baiti = biti/8;
+
+if (vien[0].checked) {
+rez.value = baiti/1000;
+} else {
+rez.value = baiti/1024;
+}
+"> KB
+
+<input type="radio" name="vien" value="KiB"
+onclick="
+biti = 25*1000000*sek.value;
+baiti = biti/8;
+
+if (vien[0].checked) {
+rez.value = baiti/1000;
+} else {
+rez.value = baiti/1024;
+}
+"> KiB
+</div>
+
+<br>
+
+<div>
+Atbilde:
+<input name="rez">
+</div>
+</form>
+
+        
+    </body>
+    
+</html>
